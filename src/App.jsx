@@ -9,9 +9,9 @@ const App = () => {
         </h1>
             <div className="slotmachin">
                 <Slotmachin x="😇" y="😈" z="😃" />
-                <hr />
+                <hr size="7" STYLE="background-color:#FF3366"/>
                 <Slotmachin x="😇" y="😇" z="😇" />
-                <hr/>
+                <hr size="7" STYLE="background-color:#FF3366"/>
                 <Slotmachin x="😈" y="😈" z="😈" />
             </div>
 

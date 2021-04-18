@@ -1,17 +1,15 @@
 body {
-    background-color: #b4f2e1;
-    box-sizing: border-box;
+  background: linear-gradient(to bottom, #66ffff 0%, #ffccff 100%);
+    /*box-sizing: border-box;*/
     margin: 0%;
     padding: 0%;
     font-family: "Josefin Sans", sans-serif;
+    height: 100vh;
   }
   h1 {
-    padding: 20px 20px;
-    background-color: #ffe9c5;
-    color: #fa9191;
+    color: #FF3366;
     border-radius: 20px;
     text-align:center;
-    border-style: outset;
   }
   
   

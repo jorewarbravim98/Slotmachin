@@ -6,17 +6,21 @@ const Slotmachin = (props) => {
     if ((x === y) && (y === z)) {
         return (
             <>
-                <div className="slot_inner"></div>
+                <div className="slot_inner">
                 <h1>{x}{y}{z}</h1>
-                <h1>This is Matching</h1>
+                <h1>This Emoji Matching</h1>
+                </div>
+                
             </>
         );
     } else {
         return (
             <>
-                <div className="slot_inner"></div>
+                <div className="slot_inner">
                 <h1>{x}{y}{z}</h1>
-                <h1>This is Not Matching</h1>
+                <h1>This Emoji Not Matching</h1>
+                </div>
+                
             </>
         );
 
